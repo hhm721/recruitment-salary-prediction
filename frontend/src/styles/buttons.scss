@@ -1,0 +1,44 @@
+/* 圆角胶囊按钮 — 参照图1，每个按钮独立背景色 */
+.btn-pill {
+  border: none !important;
+  color: #fff !important;
+  font-size: 13px;
+  padding: 8px 20px;
+  border-radius: 20px !important;
+  box-shadow: none !important;
+
+  .el-icon {
+    margin-right: 4px;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff !important;
+    opacity: 0.92;
+  }
+}
+
+.btn-pill.el-button--small {
+  padding: 5px 14px;
+  font-size: 12px;
+}
+
+.btn-search  { background: #f5a623 !important; &:hover { background: #e6951a !important; } }
+.btn-reset   { background: #3498db !important; &:hover { background: #2980b9 !important; } }
+.btn-excel   { background: #52c41a !important; &:hover { background: #389e0d !important; } }
+.btn-json    { background: #13c2c2 !important; &:hover { background: #08979c !important; } }
+.btn-txt     { background: #722ed1 !important; &:hover { background: #531dab !important; } }
+.btn-edit    { background: #3498db !important; &:hover { background: #2980b9 !important; } }
+.btn-delete  { background: #ff4d4f !important; &:hover { background: #cf1322 !important; } }
+.btn-cancel  { background: #95a5a6 !important; &:hover { background: #7f8c8d !important; } }
+.btn-save    { background: #f5a623 !important; &:hover { background: #e6951a !important; } }
+.btn-clean   { background: #009688 !important; &:hover { background: #00796b !important; } }
+.btn-crawl   { background: #1677ff !important; &:hover { background: #0958d9 !important; } }
+.btn-predict { background: #722ed1 !important; &:hover { background: #531dab !important; } }
+.btn-manual  { background: #52c41a !important; &:hover { background: #389e0d !important; } }
+.btn-refresh { background: #13c2c2 !important; &:hover { background: #08979c !important; } }
+.btn-logout  { background: #e74c3c !important; &:hover { background: #c0392b !important; color: #fff !important; } }
+.btn-login   { background: #f5a623 !important; &:hover { background: #e6951a !important; } }
+.btn-register { background: #3498db !important; &:hover { background: #2980b9 !important; } }
+.btn-home    { background: #009688 !important; &:hover { background: #00796b !important; } }
+.btn-confirm { background: #34495e !important; &:hover { background: #2c3e50 !important; } }

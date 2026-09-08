@@ -1,0 +1,59 @@
+:root {
+  /* 背景 — 白色主体 */
+  --bg-base: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f5f8ff;
+  --bg-glass: #ffffff;
+
+  /* 品牌色 */
+  --color-primary: #1677ff;
+  --color-primary-light: #4096ff;
+  --color-violet: #1677ff;
+  --color-indigo: #0958d9;
+  --color-cyan: #08979c;
+  --color-pink: #ff4d4f;
+  --color-mint: #52c41a;
+  --color-amber: #faad14;
+
+  --gradient-brand: linear-gradient(135deg, #1677ff 0%, #0958d9 50%, #13c2c2 100%);
+  --gradient-brand-soft: linear-gradient(90deg, #4096ff, #1677ff, #13c2c2);
+  --gradient-warm: linear-gradient(135deg, #ff7875, #faad14);
+  --gradient-btn: linear-gradient(135deg, #1677ff, #0958d9);
+  --gradient-btn-hover: linear-gradient(135deg, #4096ff, #1677ff);
+
+  /* 文字 */
+  --text-primary: #1a1a2e;
+  --text-secondary: #5c6b7a;
+  --text-muted: #8c9bab;
+  --text-accent: #1677ff;
+
+  /* 边框与阴影 */
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-accent: rgba(22, 119, 255, 0.35);
+  --shadow-glow: 0 8px 32px rgba(22, 119, 255, 0.12);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.06);
+
+  /* 圆角 */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* 暗色页面背景（登录/注册/落地页） */
+  --dark-page-bg: #0a0e17;
+
+  /* Element Plus 主题 */
+  --el-color-primary: #1677ff;
+  --el-color-primary-light-3: #4096ff;
+  --el-color-primary-light-5: #69b1ff;
+  --el-color-primary-light-7: #91caff;
+  --el-color-primary-light-9: #e6f4ff;
+  --el-color-primary-dark-2: #0958d9;
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #f5f7fa;
+  --el-text-color-primary: #1a1a2e;
+  --el-text-color-regular: #5c6b7a;
+  --el-border-color: rgba(0, 0, 0, 0.08);
+  --el-border-color-light: rgba(0, 0, 0, 0.06);
+}
